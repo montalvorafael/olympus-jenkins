@@ -72,7 +72,7 @@ public class RelationalOperatorTest {
 	@Test
 	public void goodHeightTest2() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.goodHeight(3, 2, 4));
+		assertTrue(tester.goodHeight(3, 2, 4));
 	}
 
 	@Test
